@@ -19,6 +19,9 @@ app.post('/todos',(req,res)=>{
 
     todo.save().then((result)=>{
       res.send(result);
+
+
+      
     },(error)=>{
       res.status(400).send(error);
     });
