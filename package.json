@@ -2,15 +2,11 @@
   "name": "mongo-db-todos",
   "version": "1.0.0",
   "description": "A simple todo application using mongo db",
-  "main": "index.js",
   "scripts": {
     "start": "node server/server.js"
   },
   "author": "Urvesh Tanna",
   "license": "ISC",
-  "engines": {
-    "node": "6.9.4"
-  },
   "dependencies": {
     "body-parser": "^1.16.0",
     "express": "^4.14.1",
